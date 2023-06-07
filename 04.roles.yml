@@ -1,4 +1,4 @@
-- name: Demo on roles
+- name: Demo on role
   hosts: localhost
   connection: localhost
   roles:
