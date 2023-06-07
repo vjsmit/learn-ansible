@@ -8,5 +8,5 @@
         msg: Hello World
 
     - name: Load another file
-      ansible.builtin.include_task:
+      ansible.builtin.include_tasks:
         file: Universe.yml
