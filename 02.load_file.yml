@@ -10,4 +10,3 @@
     - name: Load another file
       ansible.builtin.include_task:
         file: Universe.yml
-        name: Print Universe
