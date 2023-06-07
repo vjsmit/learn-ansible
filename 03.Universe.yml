@@ -1,0 +1,6 @@
+- name: Print Hello Universe
+  hosts: all
+  task:
+    - name: Print Universe
+      ansible.builtin.debug:
+        msg: Hello Universe
