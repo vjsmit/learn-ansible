@@ -6,5 +6,5 @@
         msg: Hello World
 
     - name: Load Universe file
-        ansible.builtin.include_tasks:
-          file: Universe.yml
+      ansible.builtin.include_tasks:
+        file: Universe.yml
