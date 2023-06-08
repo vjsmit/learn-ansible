@@ -1,0 +1,4 @@
+- name: Demo on variables
+  hosts: all
+  vars:
+    url: abc.com
