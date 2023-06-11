@@ -5,9 +5,9 @@
     - name: Print Hello World
       ansible.builtin.debug:
         msg: Hello World
-      when: what == World
+      when: what == "World"
 
     - name: Print Hello Universe
       ansible.builtin.debug:
         msg: Hello Universe
-      when: what == Universe
+      when: what == "Universe"
