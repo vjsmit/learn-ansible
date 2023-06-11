@@ -8,4 +8,4 @@
 
     - name: Print the register
       ansible.builtin.debug:
-        msg: Date is {{ output.stdout | split(" ")}}
+        msg: Date is {{ output.stdout | split(" ") | last }}
