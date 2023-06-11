@@ -10,4 +10,4 @@
     - name: Print Hello Universe
       ansible.builtin.debug:
         msg: Hello Universe
-      when: what == universe
+      when: what == "universe"
