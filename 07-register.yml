@@ -1,0 +1,11 @@
+- name: Demo on register
+  hosts: localhost
+  connection: local
+  tasks:
+    - name: Store the output on variable
+      ansible.builtin.shell: date
+      register: output
+
+    - name: Print the register
+      ansible.builtin.debug:
+        msg: Date is {{ output }}
