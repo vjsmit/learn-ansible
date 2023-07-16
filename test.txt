@@ -1,0 +1,2 @@
+Fruit Name = {{ fruit_name }}
+Quantity = {{ quantity }}
